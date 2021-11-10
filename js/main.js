@@ -40,21 +40,13 @@ $(document).ready(function() {
 })
 
 //**** SLider ****//
-var url;
-var img = $('img')[0];
-
-if ($(img).attr('src').indexOf('cdn') !== -1) {
-  url = $(img).attr('src').split('/').slice(0, 3).join('/') + '/';
-} else {
-  url = '';
-}
 let introSlider = document.querySelector("#intro-slider");
 let introArrowPrev = document.querySelector("#intro-arrow-prev");
 let introArrowNext = document.querySelector("#intro-arrow-next");
 let bcg = document.querySelector(".intro__image");
 let dots = document.querySelectorAll(".intro__dot");
 
-const bcgArr = ["" + url + "/img/intro/bg-1.jpg", "" + url + "/img/intro/bg-2.jpg", "" + url + "/img/intro/bg-3.png"];
+const bcgArr = ["../img/intro/bg-1.jpg", "../img/intro/bg-2.jpg", "../img/intro/bg-3.png"];
 let currentInd = 0;
 
 function changeIndex(ind) {
