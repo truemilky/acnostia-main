@@ -1,0 +1,121 @@
+.about
+  height: 100vh
+  background: url("../img/about/bcg.jpg") center center/cover no-repeat
+  &__introducing
+    position: relative
+    max-width: 275px
+    width: 100%
+    border-radius: 5px
+    color: #fff
+    background-color: #a1ca6c
+    font-family: "Galatea-Bold"
+    font-size: 25px
+    text-transform: uppercase
+    text-align: center
+    padding: 10px
+    margin: 0 auto
+    margin-bottom: 40px
+    &::after 
+      content: ""
+      position: absolute
+      display: block
+      bottom: -10px
+      left: 50%
+      width: 20px
+      height: 20px
+      transform: translateX(-50%) rotate(45deg)
+      background-color: #a1ca6c
+  &__items 
+    display: flex
+    flex-wrap: wrap
+    justify-content: center   
+  &__item 
+    max-width: 260px 
+    width: 100%
+    background-color: rgba(77, 63, 75, .5) 
+    text-align: center 
+    margin: 5px  
+    cursor: pointer
+    transition: all .3s ease
+    &:hover
+      transition: all .3s ease
+      box-shadow: 0px 0px 5px 0px #a1ca6c
+      & .about__face 
+        border-color: #df5c64
+        background: url("../img/about/face-red.png") center center/cover no-repeat
+        transition: all .3s ease
+      & .about__name 
+        color: #fff
+        transition: all .3s ease
+      & .about__position
+        color: #ff8973  
+        transition: all .3s ease 
+  &__face
+    display: block
+    width: 155px
+    height: 155px
+    background: url("../img/about/face-vlt.png") center center/cover no-repeat
+    border: 5px solid #a1859e
+    border-radius: 50%
+    margin: 0 auto
+    margin-top: 40px
+    margin-bottom: 10px
+  &__name 
+    font-family: "Galatea-Bold"
+    font-size: 25px
+    color: #c7b6c5
+    text-transform: uppercase
+    margin-bottom: 5px
+  &__position
+    font-family: "Galatea-Regular"
+    font-size: 14px
+    color: #a1ca6c
+    margin-bottom: 35px
+  &__socials 
+    display: flex
+    justify-content: center
+  &__social 
+    display: flex
+    align-items: center
+    width: 30px
+    height: 30px
+    background-color: #a1859e
+    border-radius: 50%  
+    margin: 0px 10px 
+    margin-bottom: 30px
+    cursor: pointer   
+    & a
+      margin: 0 auto
+
+.facebook 
+  transition: background-color .3s ease
+  &:hover 
+    background-color: #4f689e  
+    transition: background-color .3s ease
+
+.twitter 
+  transition: background-color .3s ease
+  &:hover 
+    background-color: #74c7d5 
+    transition: background-color .3s ease     
+
+.gplus 
+  transition: background-color .3s ease
+  &:hover 
+    background-color: #df5c64
+    transition: background-color .3s ease       
+
+.linkedin 
+  transition: background-color .3s ease
+  &:hover 
+    background-color: #3e61af
+    transition: background-color .3s ease       
+
+
+.violet-text
+  color: #e5d1e3
+
+@media (max-height: 1080px) 
+  .about 
+    height: auto
+    padding-bottom: 100px

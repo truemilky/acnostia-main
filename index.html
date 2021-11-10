@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acnostia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="index.html">acnostia</a>
+        </div>
+        <div class="burger__menu">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </div>
+        <!--/burger__menu-->
+        <div class="header__menu-wrapper">
+          <ul class="header__menu">
+            <li class="header__list-blue active">
+              <a href="#home">Home</a>
+            </li>
+            <li class="header__list-red">
+              <a href="#services">Services</a>
+            </li>
+            <li class="header__list-violet">
+              <a href="#about">About</a>
+            </li>
+            <li class="header__list-green">
+              <a href="#portfolio">Work</a>
+            </li>
+            <li class="header__list-dark-blue">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <!--/header__list-->
+          </ul>
+          <!--/header__menu-->
+        </div>
+        <!--/header__menu-wrapper-->
+      </div>
+      <!--/header__inner-->
+    </div>
+    <!--/container-->
+  </header>
+  <!--/header-->
+
+  <section id="home" class="intro">
+
+    <div class="intro__wrapper">
+      <div id="intro-arrow-prev" class="intro__arrow-prev" onclick="nextIndex(-1)"></div>
+      <div id="intro-arrow-next" class="intro__arrow-next" onclick="nextIndex(1)"></div>
+
+      <div id="intro-slider" class="intro__slider">
+        <div class="intro__item-inner">
+          <img src="img/intro/bg-1.jpg" alt="#" class="intro__image fade">
+
+          <div class="intro__item">
+            <div class="intro__box init active">
+              <div class="intro__box-inner">
+                <div class="intro__text">
+                  <div class="intro__text-regular">good ideas<br> <span>comes</span></div>
+                  <div class="intro__text-bold">first!</div>
+                </div>
+              </div>
+              <!--/intro__box-inner-->
+            </div>
+            <!--/intro__box-->
+          </div>
+          <!--/intro__item-->
+
+          <div class="intro__item">
+            <div class="intro__box init">
+              <div class="intro__box-inner">
+                <div class="intro__text">
+                  <div class="intro__text-regular dark-blue">good ideas<br> <span>comes</span></div>
+                  <div class="intro__text-bold dark-blue">first!</div>
+                </div>
+              </div>
+              <!--/intro__box-inner-->
+            </div>
+            <!--/intro__box-->
+          </div>
+          <!--/intro__item-->
+
+          <div class="intro__item">
+            <div class="intro__box init">
+              <div class="intro__box-inner">
+                <div class="intro__text">
+                  <div class="intro__text-regular red">good ideas<br> <span>comes</span></div>
+                  <div class="intro__text-bold red">first!</div>
+                </div>
+              </div>
+              <!--/intro__box-inner-->
+            </div>
+            <!--/intro__box-->
+          </div>
+          <!--/intro__item-->
+
+        </div>
+        <!--/intro__item-inner-->
+      </div>
+      <!--/intro__slider-->
+
+      <div class="intro__dots">
+        <span class="intro__dot active" onclick="changeIndex(0)"></span>
+        <span class="intro__dot" onclick="changeIndex(1)"></span>
+        <span class="intro__dot" onclick="changeIndex(2)"></span>
+      </div>
+    </div>
+    <!--/intro__wrapper-->
+
+  </section>
+  <!--/intro-->
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="block__heading">
+        <div class="block__title">
+          Our Services
+        </div>
+        <!--/block__title-->
+        <div class="block__subtitle">
+          Cras commodo mattis justo nec lobortis. Nam ut tellus <span>lobortis</span>, ullamcorper massa sit amet
+        </div>
+        <!--/block__subtitle-->
+        <div class="block__text">
+          Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat
+          rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae
+          justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+        </div>
+        <!--/block__text-->
+      </div>
+      <!--/block__heading-->
+
+      <div class="services__wrapper">
+        <div class="services__items">
+
+          <div class="services__item">
+            <div class="services__circle-stroke">
+              <div class="services__circle-fill">
+                <div class="services__item-icon">
+                  <img src="../img/services/lamp.png" alt="lamp">
+                </div>
+                <!--/services__item-icon-->
+              </div>
+              <!--/services__circle-fill-->
+            </div>
+            <!--/services__circle-stroke-->
+            <div class="services__item-title">
+              Researching
+            </div>
+            <!--/services__item-title-->
+            <div class="services__item-text">
+              Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore.
+            </div>
+            <!--/services__item-text-->
+          </div>
+          <!--/services__item-->
+
+          <div class="services__item">
+            <div class="services__circle-stroke">
+              <div class="services__circle-fill">
+                <div class="services__item-icon">
+                  <img src="../img/services/wand.png" alt="wand">
+                </div>
+                <!--/services__item-icon-->
+              </div>
+              <!--/services__circle-fill-->
+            </div>
+            <!--/services__circle-stroke-->
+            <div class="services__item-title">
+              Design
+            </div>
+            <!--/services__item-title-->
+            <div class="services__item-text">
+              Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore.
+            </div>
+            <!--/services__item-text-->
+          </div>
+          <!--/services__item-->
+
+          <div class="services__item">
+            <div class="services__circle-stroke">
+              <div class="services__circle-fill">
+                <div class="services__item-icon">
+                  <img src="../img/services/gears.png" alt="lamp">
+                </div>
+                <!--/services__item-icon-->
+              </div>
+              <!--/services__circle-fill-->
+            </div>
+            <!--/services__circle-stroke-->
+            <div class="services__item-title">
+              Development
+            </div>
+            <!--/services__item-title-->
+            <div class="services__item-text">
+              Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore.
+            </div>
+            <!--/services__item-text-->
+          </div>
+          <!--/services__item-->
+
+          <div class="services__item">
+            <div class="services__circle-stroke">
+              <div class="services__circle-fill">
+                <div class="services__item-icon">
+                  <img src="../img/services/rocket.png" alt="lamp">
+                </div>
+                <!--/services__item-icon-->
+              </div>
+              <!--/services__circle-fill-->
+            </div>
+            <!--/services__circle-stroke-->
+            <div class="services__item-title">
+              Launch
+            </div>
+            <!--/services__item-title-->
+            <div class="services__item-text">
+              Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore.
+            </div>
+            <!--/services__item-text-->
+          </div>
+          <!--/services__item-->
+        </div>
+        <!--/services__items-->
+      </div>
+      <!--/services__wrapper-->
+    </div>
+    <!--/container-->
+  </section>
+  <!--/services-->
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="block__heading">
+        <div class="block__title">
+          Who we are & what we do
+        </div>
+        <!--/block__title-->
+        <div class="block__text violet-text">
+          Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat
+          rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae
+          justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+        </div>
+        <!--/block__text-->
+      </div>
+      <!--/block__heading-->
+
+      <div class="about__introducing">
+        Meet the team
+      </div>
+      <!--/about__introducing-->
+
+      <div class="about__wrapper">
+        <div class="about__items">
+
+          <div class="about__item">
+            <div class="about__face">
+            </div>
+            <!--/about__face-->
+            <div class="about__name">
+              Anton Petrov
+            </div>
+            <!--/about__name-->
+            <div class="about__position">
+              General Manager
+            </div>
+            <!--/about__position-->
+            <div class="about__socials">
+              <div class="about__social facebook">
+                <a href="#">
+                  <img src="img/about/facebook.png" alt="facebook">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social twitter">
+                <a href="#">
+                  <img src="img/about/twitter.png" alt="twitter">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social gplus">
+                <a href="#">
+                  <img src="img/about/gplus.png" alt="google plus">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social linkedin">
+                <a href="#">
+                  <img src="img/about/linkedin.png" alt="linkedin">
+                </a>
+              </div>
+              <!--/about__social-->
+            </div>
+            <!--/about__socials-->
+          </div>
+          <!--/about__item-->
+
+          <div class="about__item">
+            <div class="about__face">
+            </div>
+            <!--/about__face-->
+            <div class="about__name">
+              Kirill Donchev
+            </div>
+            <!--/about__name-->
+            <div class="about__position">
+              Design Master
+            </div>
+            <!--/about__position-->
+            <div class="about__socials">
+              <div class="about__social facebook">
+                <a href="#">
+                  <img src="img/about/facebook.png" alt="facebook">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social twitter">
+                <a href="#">
+                  <img src="img/about/twitter.png" alt="twitter">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social gplus">
+                <a href="#">
+                  <img src="img/about/gplus.png" alt="google plus">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social linkedin">
+                <a href="#">
+                  <img src="img/about/linkedin.png" alt="linkedin">
+                </a>
+              </div>
+              <!--/about__social-->
+            </div>
+            <!--/about__socials-->
+          </div>
+          <!--/about__item-->
+
+          <div class="about__item">
+            <div class="about__face">
+            </div>
+            <!--/about__face-->
+            <div class="about__name">
+              Ilian Bonev
+            </div>
+            <!--/about__name-->
+            <div class="about__position">
+              Developer Ninja
+            </div>
+            <!--/about__position-->
+            <div class="about__socials">
+              <div class="about__social facebook">
+                <a href="#">
+                  <img src="img/about/facebook.png" alt="facebook">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social twitter">
+                <a href="#">
+                  <img src="img/about/twitter.png" alt="twitter">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social gplus">
+                <a href="#">
+                  <img src="img/about/gplus.png" alt="google plus">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social linkedin">
+                <a href="#">
+                  <img src="img/about/linkedin.png" alt="linkedin">
+                </a>
+              </div>
+              <!--/about__social-->
+            </div>
+            <!--/about__socials-->
+          </div>
+          <!--/about__item-->
+
+          <div class="about__item">
+            <div class="about__face">
+            </div>
+            <!--/about__face-->
+            <div class="about__name">
+              Noni Stamov
+            </div>
+            <!--/about__name-->
+            <div class="about__position">
+              SEO Guru
+            </div>
+            <!--/about__position-->
+            <div class="about__socials">
+              <div class="about__social facebook">
+                <a href="#">
+                  <img src="img/about/facebook.png" alt="facebook">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social twitter">
+                <a href="#">
+                  <img src="img/about/twitter.png" alt="twitter">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social gplus">
+                <a href="#">
+                  <img src="img/about/gplus.png" alt="google plus">
+                </a>
+              </div>
+              <!--/about__social-->
+              <div class="about__social linkedin">
+                <a href="#">
+                  <img src="img/about/linkedin.png" alt="linkedin">
+                </a>
+              </div>
+              <!--/about__social-->
+            </div>
+            <!--/about__socials-->
+          </div>
+          <!--/about__item-->
+        </div>
+        <!--/about__items-->
+      </div>
+      <!--/about__wrapper-->
+    </div>
+    <!--/container-->
+  </section>
+  <!--/about-us-->
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="block__heading">
+        <div class="block__title">
+          Our Work
+        </div>
+        <!--/block__title-->
+        <div class="block__text portfolio-text">
+          Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat
+          rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae
+          justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+        </div>
+        <!--/block__text-->
+      </div>
+      <!--/block__heading-->
+
+      <div class="portfolio__title mobile">
+        Portfolio
+      </div>
+      <!--/portfolio__title-->
+
+      <div class="portfolio__wrapper">
+        <div class="portfolio__menu">
+          <div class="portfolio__title">
+            Portfolio
+          </div>
+          <!--/portfolio__title-->
+          <div class="portfolio__links">
+            <a class="portfolio__link" href="#" data-filter="all">
+              All
+            </a>
+            <!--/portfolio__link-->
+            <a class="portfolio__link" href="#" data-filter="photo">
+              Photography
+            </a>
+            <!--/portfolio__link-->
+            <a class="portfolio__link" href="#" data-filter="logo">
+              Logo Design
+            </a>
+            <!--/portfolio__link-->
+            <a class="portfolio__link" href="#" data-filter="web">
+              Web Design
+            </a>
+            <!--/portfolio__link-->
+          </div>
+          <!--/portfolio__links-->
+        </div>
+        <!--/portfolio__menu-->
+      </div>
+      <!--/portfolio__wrapper-->
+
+      <div class="portfolio__items">
+        <div class="portfolio__item" data-ctg="photo">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-1.png" alt="img-1">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Aenean a elit
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="logo">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-2.png" alt="img-2">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Aliquam
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="web">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-3.png" alt="img-3">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Suspendisse Libero
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="photo">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-4.png" alt="img-4">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Maecenas Fringilla
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="logo">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-5.png" alt="img-5">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Donec Vehicula
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="web">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-6.png" alt="img-6">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Ut Et Sapien
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="photo">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-7.png" alt="img-7">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Quis Malesuada
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+
+        <div class="portfolio__item" data-ctg="logo">
+          <div class="portfolio__image-box">
+            <div class="portfolio__overlay">
+            </div>
+            <!--/portfolio__overlay-->
+            <img class="portfolio__image" src="img/portfolio/images/img-8.jpg" alt="img-8">
+            <span class="portfolio__plus">
+            </span>
+            <!--/portfolio__plus-->
+          </div>
+          <!--/portfolio__image-box-->
+          <p class="portfolio__item-text">
+            Vestibulum Ante
+          </p>
+          <!--/portfolio__item-text-->
+        </div>
+        <!--/portfolio__item-->
+      </div>
+      <!--/portfolio__items-->
+    </div>
+    <!--/container-->
+  </section>
+  <!--/porfolio-->
+
+  <section id="contacts" class="contact">
+    <div class="container">
+      <div class="block__heading">
+        <div class="block__title">
+          Contact Us
+        </div>
+        <!--/block__title-->
+        <div class="block__text portfolio-text">
+          Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat
+          rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae
+          justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+        </div>
+        <!--/block__text-->
+      </div>
+      <!--/block__heading-->
+
+      <div class="contact__wrapper">
+        <div class="contact__address">
+          <div class="contact__title">
+            Address
+          </div>
+          <!--/contact__title-->
+          <div class="contact__box">
+            <div class="contact__info">
+              <div class="contact__subtitle">
+                Acrostia
+              </div>
+              <!--/contact__subtitle-->
+              <div class="contact__location">
+                Sevenoaks Rd<br>
+                Sevenoaks TN14 7HR, UK
+              </div>
+              <!--/contact__location-->
+
+              <div class="contact__contacts">
+                <div class="contact__positions">
+                  Phone:<br>
+                  Fax:<br>
+                  E-Mail:<br>
+                  Skype:<br>
+                </div>
+                <!--/contact__positions-->
+                <div class="contact__numbers">
+                  +44 445 555 555<br>
+                  +44 446 565 455<br>
+                  info@acrostia.com<br>
+                  Acr0stia<br>
+                </div>
+                <!--/contact__numbers-->
+              </div>
+              <!--/contact__contacts-->
+            </div>
+            <!--/contact__info-->
+            <div class="contact__map">
+              <img src="img/contact/map.jpg" alt="map" class="contact__map-img">
+            </div>
+            <!--/contact__map-->
+          </div>
+        </div>
+        <!--/contact__address-->
+
+        <div class="contact__callback">
+          <div class="contact__title callback__title">
+            Ask a question
+          </div>
+          <!--/contact__title-->
+          <div class="contact__form-wrapper">
+            <form class="contact__form" action="#" method="POST">
+              <div class="contact__fields-sm">
+                <input class="contact__field-sm" type="text" name="user-name" id="user-name" placeholder="Name">
+                <input class="contact__field-sm" type="email" name="user-mail" id="user-mail" placeholder="E-Mail">
+              </div>
+              <!--/contact__fields-sm-->
+              <textarea class="contact__field-bg" name="question" id="question" placeholder="Your Question"></textarea>
+              <button class="contact__button">send</button>
+            </form>
+            <!--/contact__form-->
+          </div>
+          <!--/contact__form-wrapper-->
+        </div>
+        <!--/contact__callback-->
+      </div>
+      <!--/contact__wrapper-->
+    </div>
+    <!--/container-->
+  </section>
+  <!--/contact-->
+
+  <footer class="footer">
+    <div class="footer__box">
+      <div class="footer__socials">
+        <div class="footer__social">
+          <a href="#" class="footer__link facebook">
+            <img src="img/footer/facebook.png" alt="facebook" class="footer__icon">
+          </a>
+          <!--/footer__link-->
+        </div>
+        <!--/footer__social-->
+        <div class="footer__social">
+          <a href="#" class="footer__link twitter">
+            <img src="img/footer/twitter.png" alt="twitter" class="footer__icon">
+          </a>
+          <!--/footer__link-->
+        </div>
+        <!--/footer__social-->
+        <div class="footer__social">
+          <a href="#" class="footer__link gplus">
+            <img src="img/footer/gplus.png" alt="gplus" class="footer__icon">
+          </a>
+          <!--/footer__link-->
+        </div>
+        <!--/footer__social-->
+        <div class="footer__social">
+          <a href="#" class="footer__link linkedin">
+            <img src="img/footer/lin.png" alt="lin" class="footer__icon">
+          </a>
+          <!--/footer__link-->
+        </div>
+        <!--/footer__social-->
+      </div>
+      <!--/footer__socials-->
+    </div>
+    <!--/footer__box-->
+  </footer>
+  <!--/footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
