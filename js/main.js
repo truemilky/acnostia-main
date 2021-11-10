@@ -46,7 +46,7 @@ let introArrowNext = document.querySelector("#intro-arrow-next");
 let bcg = document.querySelector(".intro__image");
 let dots = document.querySelectorAll(".intro__dot");
 
-const bcgArr = ["../img/intro/bg-1.jpg", "../img/intro/bg-2.jpg", "../img/intro/bg-3.png"];
+const bcgArr = ["img/intro/bg-1.jpg", "img/intro/bg-2.jpg", "img/intro/bg-3.png"];
 let currentInd = 0;
 
 function changeIndex(ind) {
